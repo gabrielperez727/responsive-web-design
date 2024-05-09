@@ -5,5 +5,14 @@ p {
 }
 
 body {
-  background-color: brown;
+}
+
+#menu {
+  width: 80%;
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
 }
