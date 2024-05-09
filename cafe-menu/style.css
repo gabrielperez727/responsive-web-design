@@ -4,8 +4,26 @@ p {
   text-align: center;
 }
 
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
 }
 
 #menu {
@@ -16,17 +34,19 @@ body {
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
 }
 
 .flavor,
 .dessert {
   text-align: left;
-  width: 75%;
+  width: 49%;
 }
 
 .price {
   text-align: right;
-  width: 25%;
+  width: 49%;
 }
 
 .item p {
