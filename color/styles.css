@@ -8,14 +8,19 @@ h1 {
   margin: 10px auto;
 }
 
-.one {
-  background-color: red;
+.red {
+  background-color: rgb(255, 0, 0);
 }
 
-.two {
-  background-color: green;
+.green {
+  background-color: #007f00;
 }
 
-.three {
-  background-color: blue;
+.blue {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
 }
