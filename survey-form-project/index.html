@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">FCC Project</p>
+    <form id="survey-form">
+      <label id="name-label">
+        <input placeholder="Name" required id="name" type="text" />
+      </label>
+      <label id="email-label">
+        <input placeholder="Email" required id="email" type="email" />
+      </label>
+      <label id="number-label">
+        <input
+          placeholder="Number"
+          id="number"
+          type="number"
+          pattern="[a-z0-5]{8,}"
+          min="5"
+          max="15"
+        />
+      </label>
+      <select id="dropdown">
+        <option>Celtics</option>
+        <option>Pacers</option>
+      </select>
+      <input value="1" name="radio" type="radio" />
+      <input value="2" name="radio" type="radio" />
+      <input value="1" type="checkbox" />
+      <input value="2" type="checkbox" />
+      <textarea
+        placeholder="I like coding on the beach..."
+        rows="3"
+        cols="30"
+      ></textarea>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
